@@ -1,0 +1,222 @@
+body {
+    text-align: center;
+
+}
+
+h3 {
+    text-align: justify;
+    margin-left: 150;
+    margin-right: 150;
+
+
+}
+
+.menu1: {
+    float: left;
+    position: sticky;
+    list-style: none;
+    background: black;
+    position: fixed;
+    font-size: 50px;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.menu1:hover {
+    color: hotpink;
+}
+
+.links {
+    display: inline;
+    font-size: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+#img {
+    height: 250px;
+    width: 400px;
+}
+
+label {
+    font-size: 20px;
+    height: 100px;
+    width: 700px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#map iframe {
+    width: 50%;
+    float: left;
+    padding-top: 5px;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    text-shadow: none;
+}
+
+#footer {
+    height: 20px;
+    background-color: white;
+}
+
+input {
+    background: grey
+}
+
+.announcement {
+    background-color: #337ab7;
+    width: 100%;
+    height: 30px;
+}
+
+#marqueeStyle {
+    width: 100%;
+    direction: right;
+    height: 100px;
+    color: beige;
+    font-size: 120%;
+}
+
+#video {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+
+
+/* Clearfix (clear floats) */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.travel_mainDiv {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+}
+
+.travel_mainDiv img {
+    width: 100%;
+    height: 300px;
+}
+
+.travel_mainDiv hr {
+    width: 100%;
+}
+
+.travel_mainDiv h5,
+.travel_mainDiv p {
+    margin-left: 40px;
+}
+
+.travel_mainDiv h6,
+.travel_mainDiv p {
+    margin-left: 40px;
+}
+
+.travel_mainDiv h7,
+.travel_mainDiv p {
+    margin-left: 70px;
+}
+
+#aluminiList img {
+    height: 250px;
+}
+
+#achievementsID {
+    padding-bottom: 10px;
+}
+
+.movie_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i {
+    float: right;
+}
+
+.movie_text span {
+    color: #ff7700;
+}
+
+.environment_li {
+    margin-top: 13px;
+}
+
+.environment_li h4 {
+    border-bottom: 1px solid white;
+    padding: 8px;
+}
+
+.environment_li img {
+    border-radius: 25px;
+    height: 250px;
+}
+
+.environment_li p {
+    margin-top: 10px;
+}
+
+.header_entrepreneur {
+    line-height: 2;
+}
+
+.book {
+    cursor: pointer;
+}
+
+.book hr {
+    margin-bottom: 10px;
+}
+
+.modal-content {
+    margin-top: 100px;
+}
+
+.img_modal {
+    display: inline-block;
+}
+
+.p_modal {
+    margin-top: 10px;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+#Section {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: -350px;
+    background-color: #9bb0a2;
+
+}
+
+.menu2 {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    z-index: 10px;
+    cursor: pointer;
+    margin-left: 600px;
+}
